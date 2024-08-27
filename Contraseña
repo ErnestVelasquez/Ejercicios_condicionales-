@@ -1,0 +1,12 @@
+let usuario = "miUsuario"; 
+let contraseña = "usuario9381"; 
+
+// Supongamos que el usuario ingresa estos valores
+let usuarioIngresado = "miUsuario";
+let contraseñaIngresada = "usuario9381";
+
+if (usuarioIngresado === usuario && contraseñaIngresada === contraseña) {
+  console.log("¡Inicio de sesión exitoso!");
+} else {
+  console.log("Usuario o contraseña incorrectos.");
+}
