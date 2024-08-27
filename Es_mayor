@@ -1,0 +1,3 @@
+let adulto = 20;
+let categoria = (adulto >= 18) ? "Ya es un Adulto" : "Es un menor de edad"
+console.log (`La persona  ${categoria}`);
