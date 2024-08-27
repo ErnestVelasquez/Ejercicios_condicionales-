@@ -1,0 +1,59 @@
+let mes1 = 7;
+let nameMes1;
+let numDia;
+
+switch(mes1){
+    case 1:
+        nameMes1 = "Enero";
+        numDia = 31;
+        break;
+     case 2:
+        nameMes1 = "Febrero";
+        numDia = 28;
+        break;
+    case 3:
+        nameMes1 = "Marzo";
+        numDia = 31;
+        break;
+    case 4:
+        nameMes1 = "Abril";
+        numDia = 30;
+        break;
+    case 5:
+        nameMes1 = "Mayo";
+        numDia = 31;
+        break;
+    case 6:
+        nameMes1 = "Junio";
+        numDia = 30;
+        break;
+    case 7:
+        nameMes1 = "Julio";
+        numDia = 31;
+        break;
+    case 8:
+        nameMes1 = "Agosto";
+        numDia = 31;
+        break;
+    case 9:
+        nameMes1 = "Septiembre";
+        numDia = 30;
+        break;
+    case 10:
+        nameMes1 = "Octubre";
+        numDia = 31;
+        break;
+    case 11:
+        nameMes1 = "Noviembre";
+        numDia = 30;
+        break;
+    case 12:
+        nameMes1 = "Diciembre";
+        numDia = 31;
+        break;
+    default:
+        nameMes1 = "Numero de mes incorrecto";
+        numDia = 0;
+}
+
+console.log("Estamos en el mes de: " + nameMes1 + "Y este mes tiene: " + numDia + "de dias");
