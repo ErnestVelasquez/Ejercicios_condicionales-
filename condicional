@@ -1,0 +1,7 @@
+let nombre = "Ernesto"; 
+
+if (nombre === "Ernesto") {
+    console.log(nombre);
+} else {
+   console.log("tu nombre no es Ernesto");
+}
