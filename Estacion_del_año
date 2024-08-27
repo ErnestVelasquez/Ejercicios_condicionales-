@@ -1,0 +1,16 @@
+let MES = "Octubre";
+let estacion ;
+
+if (MES === "Marzo" || MES === "Abril" || MES === "Mayo"|| MES === "Junio"){
+    estacion = "Primavera";
+} else if (MES === "Julio" || MES === "Agosto" || MES === "Septiembre"){
+    estacion = "Verano";
+} else if (MES === "Octubre" || MES === "Noviembre"){
+    estacion = "Otoño";
+} else if (MES === "Diciembre" || MES === "Enero" || MES === "Febrero"){
+    estacion = "Invierno";
+} else {
+    estacion = "El mes ingresado no es valido";
+}
+
+console.log("La estacion del mes es: " + estacion);
