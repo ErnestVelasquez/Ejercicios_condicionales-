@@ -1,0 +1,13 @@
+function verificarEdadParaVotar(edad) {
+    if (edad >= 18) {
+        return `¡Puedes votar!`;
+    } else {
+        const aniosFaltantes = 18 - edad;
+        return `Aún te faltan ${aniosFaltantes} años para poder votar.`;
+    }
+}
+
+// Ejemplo de uso:
+const edadUsuario = 20; 
+const resultado = verificarEdadParaVotar(edadUsuario);
+console.log(resultado);
